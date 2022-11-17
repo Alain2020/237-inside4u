@@ -589,6 +589,12 @@
     font-size: 14px;
     font-weight: 600;
     border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#contact .wrapper form input .buttom:hover{
+    background: #1a1b1e;
+    color: #fff;
+    cursor: pointer;
 }
 
 
