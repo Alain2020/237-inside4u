@@ -591,10 +591,19 @@
     border-radius: 5px;
     transition: all 0.3s ease;
 }
-#contact .wrapper form input .buttom:hover{
+#contact .wrapper form .buttom:hover{
     background: #1a1b1e;
     color: #fff;
     cursor: pointer;
+}
+/* Footer Section Styling*/
+.footer-botter{
+    background: #1a1b1e;
+    color: #536daf;
+}
+.footer-botter p{
+    font-size: 14px;
+    font-weight: 600;
 }
 
 
