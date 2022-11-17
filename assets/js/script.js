@@ -16,7 +16,18 @@ $(document).ready(function(){
         }else{
             $('.navbar-bottom').removeClass("sticky");
         }
-    })
+        //Scrolling Button Btn
+        if(this.scrollY > 500){
+            $('.scroll-up-btn').addClass("show");
+        }else{
+            $('.scroll-up-btn').removeClass("show");
+        }
+    });
+
+    //silde up script
+    $('.scroll-up-btn').click(function(){
+        $('html').animate({scrollTop:0});
+    });
 
      //owl owlCarousel
      $('.owl-carousel').owlCarousel({
