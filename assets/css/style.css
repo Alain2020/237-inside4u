@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* Smooth Scroll*/
+html{
+    scroll-behavior: smooth;
+}
 
 /*Utility Classes*/
 
@@ -597,11 +601,11 @@
     cursor: pointer;
 }
 /* Footer Section Styling*/
-.footer-botter{
+.footer-bottom{
     background: #1a1b1e;
     color: #536daf;
 }
-.footer-botter p{
+.footer-bottom p{
     font-size: 14px;
     font-weight: 600;
 }
